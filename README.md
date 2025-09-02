@@ -15,11 +15,7 @@ An interactive digital greeting card built with HTML, CSS, and JavaScript to cel
 
 🛠️ Technologies Used
 
-HTML5 – Card structure
-
-CSS3 – Styling and animations
-
-JavaScript (ES6) – Interactivity and dynamic effects
+HTML5 – Card structure; CSS3 – Styling and animations and JavaScript (ES6) – Interactivity and dynamic effects
 
 🚀 How to Use
 
@@ -40,6 +36,8 @@ Edit script.js → Enhance interactivity or add more animations.
 Students greeting their teachers digitally.
 Schools sharing online Teachers’ Day cards.
 Beginners learning HTML, CSS, and JS through a creative project.
+
+=========================================================================
 
 🙌 Acknowledgment
 
