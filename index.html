@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy World Teacher's Day!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="playButton">Play Audio</button>
+  <div class="body">
+    <div class="birthdayCard">
+      <div class="cardFront"><h3 class="happy">Happy World Teacher's Day!</h3>
+        <div class="image">
+          <img src="Randy.jpg" alt="image">
+        </div>
+      </div>
+      <div class="cardInside">
+        <h3 class="back">HAPPY TEACHER'S DAY SIR RANDY D. BELLO</h3>
+        <p contenteditable="true">Dear sir Randy,</p> 
+        <p contenteditable="true">Salamat sa dedikasyon mo sa pag tukdo saamon about sa lesson sa school kag lesson sa buhay. Padayon sa pag inspire sa mga estudyante, sir! Palangga ka namon na mga advisory mo.</p>
+        <p contenteditable="true" class="name">Ark</p>
+      </div>
+    </div>
+  </div>
+  <audio id="audio" src="salamat.mp3"></audio>
+  <script src="main.js"></script>
+</body>
+</html>
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  const audio = document.getElementById("audio");
+  const playButton = document.getElementById("playButton");
+  
+  playButton.addEventListener("click", function() {
+    if (audio.paused) {
+      audio.play();
+      playButton.textContent = "Pause Audio";
+    } else {
+      audio.pause();
+      playButton.textContent = "Play Audio";
+    }
+  });
+});
+
+</script>
