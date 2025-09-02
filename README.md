@@ -5,14 +5,20 @@ An interactive digital greeting card built with HTML, CSS, and JavaScript to cel
 📖 Features
 
 🎨 Elegant Layout – Styled with CSS to look like a greeting card.
+
 💬 Customizable Messages – Add personal greetings or inspirational quotes.
+
 ✨ Interactive Animations – JavaScript-powered effects (confetti, glowing text, etc.).
+
 📱 Responsive Design – Works well on desktop and mobile.
+
 
 🛠️ Technologies Used
 
 HTML5 – Card structure
+
 CSS3 – Styling and animations
+
 JavaScript (ES6) – Interactivity and dynamic effects
 
 🚀 How to Use
